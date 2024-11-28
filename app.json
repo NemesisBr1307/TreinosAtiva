@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TreinosAtiva",
+    "slug": "TreinosAtiva",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "MANAGE_DOCUMENTS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "WRITE_MEDIA_STORAGE"
+      ],
+      "package": "com.nemesisbr1307.TreinosAtiva"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad26943a-a772-4fc9-9fe5-efc6547dbd48"
+      }
+    }
+  }
+}
