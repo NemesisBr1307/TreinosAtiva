@@ -22,14 +22,14 @@ const App = () => {
         initialRouteName="Dia"
         screenOptions={{
           headerStyle: {
-            backgroundColor: "#2EB4EE", // Cor de fundo do cabeçalho
+            backgroundColor: "#2EB4EE",
             height: 100,
           },
-          headerTintColor: "#ffffff", // Cor do texto do cabeçalho
+          headerTintColor: "#ffffff",
           headerTitleStyle: {
             fontWeight: "bold",
           },
-          headerTitleAlign: "center", // Centraliza o texto do cabeçalho
+          headerTitleAlign: "center",
         }}
       >
         <Stack.Screen name="Dia" component={DiaScreen} />

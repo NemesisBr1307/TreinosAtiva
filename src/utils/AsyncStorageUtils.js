@@ -4,27 +4,21 @@ export const saveFicha = async (key, ficha) => {
   try {
     const jsonValue = JSON.stringify(ficha);
     await AsyncStorage.setItem(key, jsonValue);
-  } catch (e) {
-    // erro ao salvar
-  }
+  } catch (e) {}
 };
 
 export const getFichas = async () => {
   try {
     const jsonValue = await AsyncStorage.getItem("fichas");
     return jsonValue != null ? JSON.parse(jsonValue) : [];
-  } catch (e) {
-    // erro ao ler valor
-  }
+  } catch (e) {}
 };
 
 export const saveFichas = async (fichas) => {
   try {
     const jsonValue = JSON.stringify(fichas);
     await AsyncStorage.setItem("fichas", jsonValue);
-  } catch (e) {
-    // erro ao salvar
-  }
+  } catch (e) {}
 };
 
 export const deleteFicha = async (nome) => {

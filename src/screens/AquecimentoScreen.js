@@ -78,7 +78,6 @@ const AquecimentoScreen = ({ route, navigation }) => {
           }
         />
       </View>
-      {/* Adicione os outros campos e categorias aqui */}
       <View style={styles.container}>
         <Text style={styles.headerText}>BIKE REBOOK</Text>
         <Text>Furo</Text>
